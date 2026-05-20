@@ -1,0 +1,162 @@
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Ensures body is at least full screen height */
+  margin: 0;
+}
+.alert-success{
+  background-color: #9cff5738;
+}
+.lheight-16{
+
+  line-height: 1.6;
+
+}
+.bg-green2{
+
+  background-color:#9cff5738;
+  color: #484848;
+  overflow: hidden;
+
+}
+.bg-light {
+    background-color: #9cff57 !important;
+    color: whitesmoke;
+}
+.border-green{
+
+  border: 1px solid #0cff44;
+}
+  .button-orange{
+
+    background-color: #ff6a00;
+    border: 1px solid wheat;
+    color: #e9ffda;
+    margin-bottom: 1%;
+    margin-right: 14%;
+
+  }
+  .button-orange:hover{
+    background-color: #e65f00;
+    border-color: wheat;
+  }
+  .close{
+
+    position: absolute;
+    top: 1px;
+    left: 300px;
+
+  }
+  .col-4{ 
+    
+    max-width:31.9%;
+    min-height: 250px;;
+  
+ }
+  .confirm-delete{
+    background-color:#28a745;
+    color: #e9ffda;
+    position:fixed; 
+    top:20%;
+    left:20%;
+  }
+  .delete{
+
+    background-color: #ff4f4f;
+    border: solid 1px red;
+    color: whitesmoke;
+  }
+  .delete:hover{
+
+    background-color: red;
+
+  }
+  .btn-update{
+    background-color: #1687ff;
+    color: whitesmoke;
+  }
+  .clr-grey{
+  
+    color: #4f4f4f;
+  }
+  .d-flex{
+    width:30%;
+    margin: auto;
+    position: relative;
+    bottom: 0px;
+    padding: 1%;
+  }
+  .font-14{
+
+    font-family:'Times New Roman', Times, serif;
+    font-size: 1.4vw;
+
+  }
+.heading1{
+
+  background-color: #ffdff8eb;  
+  color:rgb(225, 0, 221);
+  align-content: center;
+    
+} 
+.heading1:hover{
+
+  background-color: rgb(225, 0, 221);  
+  color:whitesmoke;
+  
+} 
+.heading-green{
+
+  color: #53ca00;
+  font-family: 'Trebuchet MS', sans-serif;
+}
+.navbar-light .navbar-nav .active > .nav-link{
+
+  color: #e65f00;
+
+}
+.navbar-light .navbar-nav .nav-link{
+
+  color: #e65f00;
+
+}
+  .new-sticker {
+    background-color: #28a745;
+    color: white;
+    padding: 2px 6px;
+    font-size: 0.75rem;
+    border-radius: 4px;
+    margin-left: 320px;
+    margin-top: -81px;
+    vertical-align: middle;
+}
+  
+.footer{
+  background-color:#9cff57;
+  color: #e65f00;
+  margin-top: auto;
+  min-height: 80px;
+}
+/**********         Post          **********/
+
+.alert{ 
+
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+ }
+.flabel{
+  width:10%;
+}
+.finputs{
+
+  border: 1px solid #c1ff95;
+
+}
+
+.finputs:focus-visible{
+
+  border: 1px solid #53ca00;
+  outline: none;
+
+}
