@@ -14,8 +14,8 @@ body {
 }
 .bg-green2{
 
-  background-color:#9cff5738;
-  color: #484848;
+  background-color:#eeeeee38;
+  color: #4a794d;
   overflow: hidden;
 
 }
@@ -94,8 +94,8 @@ body {
   }
 .heading1{
 
-  background-color: #ffdff8eb;  
-  color:rgb(225, 0, 221);
+  background-color: rgb(225, 0, 221);  
+  color:whitesmoke;
   align-content: center;
     
 } 
