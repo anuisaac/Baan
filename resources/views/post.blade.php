@@ -2,11 +2,11 @@
 
     <div class="container">
         
-        <div class="col-10 bg-green2 mx-auto py-2" > 
+        <div class="col-10 bg-purple mx-auto py-2" > 
 
         <form action="/post" method="post" class="py-2 w-75 mx-auto">
 
-            <h2 class="heading-green pb-2">Create a Post</h1>
+            <h2 class="heading-purple pb-2">Create a Post</h1>
 
             @csrf 
 

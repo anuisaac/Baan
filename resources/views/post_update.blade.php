@@ -2,11 +2,11 @@
 
     <div class="container">
 
-        <div  class="col-10 bg-green2 py-2" >  
+        <div  class="col-10 bg-purple mx-auto py-2" >  
 
         <form action="{{ route( 'update.post', $post->id ) }}" method="post" class="w-75 mx-auto">
 
-            <h2 class="heading-green mt-2 pb-2">Edit your Post</h2>
+            <h2 class="heading-purple mt-2 pb-2">Edit your Post</h2>
 
             @csrf 
             @method('PUT')
@@ -20,7 +20,7 @@
             
             <input type="submit" name="updte" class="button-orange float-right p-2" value="Update Post"/>
             <br>
-            <span style="color:#ff6a00;">{{ session('success')}}</span>
+            <span style="color:#4c1d95;">{{ session('success')}}</span>
             @if(session('success'))
                 <a href="{{ route('view.post', $post->id) }}">View Post</a>
             @endif

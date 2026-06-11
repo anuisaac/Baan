@@ -1,14 +1,14 @@
 <x-layout>
 
-    <div class="container bg-green2">
+    <div class="container bg-purple">
 
         <div class="lheight-16">
 
-            <h2 class="heading-green mt-2 py-2 text-center">About Us</h2>
+            <h2 class="heading-purple mt-2 py-2 text-center">About Us</h2>
             
-            <p class="font-14 py-2">
+            <p class="post-content  py-2">
 
-                <strong style="color:#e65f00;">Baan</strong> is a website where you can Create, Read, Update and Delete posts.<br>The 
+                <strong style="color:#4c1d95;">Baan</strong> is a website where you can Create, Read, Update and Delete posts.<br>The 
                 home page of Baan displays all  the posts in the newest post first order.<br>The 
                 home page displays the 12 posts in each post.<br>Each post has a link 
                 to view the full post, and the options to update or delete the post.<br>When you
